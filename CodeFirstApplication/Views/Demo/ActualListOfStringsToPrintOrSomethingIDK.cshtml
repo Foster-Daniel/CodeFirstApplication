@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "ActualListOfStringsToPrintOrSomethingIDK";
+}
+
+<h2>ActualListOfStringsToPrintOrSomethingIDK</h2>
+<ul>
+    @foreach (var SuperAwesomeString in (List<string>)ViewBag.Name)
+    {
+        <li>@SuperAwesomeString</li>
+    }
+</ul>
